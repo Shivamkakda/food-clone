@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food App</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+
+</body>
+</html>
+
+<script type="module">
+     import {htmlDetails, navbar} from "./components/navbar.js"
+    import {onPageLoad, searchKeyword, clickButton} from './scripts/showData.js';
+    document.body.innerHTML = htmlDetails();
+    document.getElementById('heading')
+    let parrent = document.getElementById('popular');
+
+    let pr = new Promise((resolve, reject) => {
+        let nav = document.getElementById('navCont');
+            nav.innerHTML = navbar();
+            resolve("ok");
+            reject("failed");
+    })
+    pr.then( (res) => {
+        document.getElementById("keyword").addEventListener('input', searchKeyword);
+        document.getElementById('searchButton').addEventListener('click',clickButton)
+    })
+    .catch( (error) => {
+        console.log(error);
+    })
+    onPageLoad(parrent, `https://api.spoonacular.com/recipes/random?number=5&apiKey=11bbd8bdbcf44021a985342494f5e79d`);
+
+</script>
