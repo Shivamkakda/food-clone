@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(175, 179, 179);
+    background-color: rgb(241, 240, 240);
 }
 #searchButton{
     margin-left: 500px;
@@ -77,17 +77,32 @@ body{
     box-shadow: 0px 0px 1px 3px grey;
     padding: 3px;
     cursor: pointer;
+    overflow: scroll;
 }
+.onLoadResutl::-webkit-scrollbar {
+    display: none;
+  }
 .onLoadResutl h2{
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
 }
 .onLoadResutl img{
     width: 100%;
     height: 250px;
-    
+    border: 2px solid gray;
+    padding: 2px;
+}
+.onLoadResutl img:hover{
+    transition: scale(1.1);
+}
+.prices{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: red;
 }
 .onLoadResutl:hover{
-    background-color: rgb(202, 241, 241);
+    background-color: rgb(194, 194, 212);
 }
 
 
@@ -116,6 +131,7 @@ body{
 }
 .searchBox:hover{
     background: rgb(202, 241, 241)
+    
 }
 .searchBox img{
     width: 20%;
@@ -134,8 +150,8 @@ body{
     display: none;
   }
   .appendSearchBox img{
-      width: 100%;
-      height: 255px;
+      width: 90%;
+      height: 400px;
   }
   .singleBox{
     box-shadow: 0px 0px 1px 3px grey;
