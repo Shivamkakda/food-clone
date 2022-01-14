@@ -18,7 +18,7 @@ In Which user can search favourite Recipe, recipe of the day, price and the ingr
 
 
 How to run the Project:
-Click The Link to start the app at https://shivamkakda.github.io/food-clone/ .
+Click The Link to start the app at <a href ="https://shivamkakda.github.io/food-clone/">FooDBite</a> .
 
 
 
