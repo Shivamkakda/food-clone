@@ -1,21 +1,26 @@
-# food-clone
-This is the First ever Application Built by Me using APIs and Javascript during My Masai School .The tech stack used for this Mini Food Recipe Application is HTML, CSS, JAVASCRIPT and Local Storage.
-The technology of stack used:
-HTML & CSS
-JavaScript
-DOM
-Local Storage
-Pages developed:
-Landing page
+<h2>FooDBite</h2>
+This is the First ever Application Built by Me using APIs and Javascript during My Masai School full Stack Web Devlopment Course.The tech stack used for this Mini Food Recipe Application is HTML, CSS, JAVASCRIPT and Local Storage.
+In Which user can search favourite Recipe, recipe of the day, price and the ingredients to make the delicious food.The search functioning is achived by using debouncing.
 
+<h3 >The technology of stack used:</h3>
+<ul>
+<li>HTML</li>
+<li>CSS & Tailwind</li>
+<li>JavaScript</li>
+<li>DOM</li>
+<li>Local Storage</li>
+<h2>Pages developed:</h2>
+<h3>Landing page</h3>
+<img src ="/components/imgs/landing.PNG">
+
+<h3> Recipe Details</h3>
+<img src ="/components/imgs/recipe detail.PNG ">
 
 
 How to run the Project:
-Click The Link to start the app at https://61b495e76b79800007c5dcf7--desertcart.netlify.app/.
+Click The Link to start the app at https://shivamkakda.github.io/food-clone/ .
 
-Click The deployement https://61b495e76b79800007c5dcf7--desertcart.netlify.app/ you will reach on home page and creat account or signup if you are a new user or signin through your credentials (if doesn't work, please disable ad blocker or try out in incognito mode).
 
-In our website users can buy any catagaries of products, users can add them to cart and can done further payment process.
 
-End Notes:
-In this project we had tried to cover most functionality, as same as original website. Lot's of things we learned thought this journey. most important we learned how to work in a group. We were able to appliid all knowledge wichever we learned yet. We are now much confident to make a real website.
+In this mini application users can search any catagaries of food.
+
